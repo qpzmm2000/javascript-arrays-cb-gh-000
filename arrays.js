@@ -5,7 +5,8 @@ addElementToBeginningOfArray = (array, element) => {
 }
 
 destructivelyAddElementToBeginningOfArray = (array, element) => {
-  return array.unshift(element)
+  array.unshift(element)
+  return array
 }
 
 addElementToEndOfArray = (array, element) => {
@@ -13,7 +14,8 @@ addElementToEndOfArray = (array, element) => {
 }
 
 destructivelyAddElementToEndOfArray = (array, element) => {
-  return array.push(element)
+  array.push(element)
+  return array
 }
 
 accessElementInArray = (array, index) => {
