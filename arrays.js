@@ -5,7 +5,7 @@ addElementToBeginningOfArray = (array, element) => {
 }
 
 destructivelyAddElementToBeginningOfArray = (array, element) => {
-  array.shift(element)
+  array.unshift(element)
   return array
 }
 
