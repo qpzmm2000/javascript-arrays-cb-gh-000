@@ -31,5 +31,9 @@ removeElementFromBeginningOfArray = (array) => {
   return array.slice(1)
 }
 destructivelyRemoveElementFromEndOfArray = (array) => {
-  return array.pop()
+  array.pop()
+  return array
+}
+removeElementFromEndOfArray = (array) => {
+  return array.slice(0, iceCreams.length - 1)
 }
