@@ -6,6 +6,7 @@ addElementToBeginningOfArray = (array, element) => {
 
 destructivelyAddElementToBeginningOfArray = (array, element) => {
   array = [element, ...array]
+  return array
 }
 
 addElementToEndOfArray = (array, element) => {
